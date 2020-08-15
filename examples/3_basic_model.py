@@ -3,7 +3,7 @@ fake = Faker()
 import csv, datetime, os
 
 fake = Faker(['es_ES']) 
-total= 10
+total= 13
 today = datetime.date.today()
 output="database-"+ str(today) + ".csv"
 data = []

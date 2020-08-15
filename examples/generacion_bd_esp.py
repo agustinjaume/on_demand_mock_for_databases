@@ -2,7 +2,7 @@ from faker import Faker
 import csv, datetime, pandas, os
 
 fake = Faker(['es_ES']) 
-total= 10
+total= 5000000
 today = datetime.date.today()
 output="database-"+ str(today) + ".csv"
 

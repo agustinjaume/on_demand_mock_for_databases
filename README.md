@@ -29,9 +29,10 @@ With these criteria we can see that the objective is basically to have a volume 
 ### IMPORTANT
 
 GOOD PRACTICES - If we choose to use a data source created with simulated data, it is very important to follow the following recommendations:
-1_ Define and report the use of these data sets within the work team
-2_ Document the process of creation, use of libraries and publish it internally.
-3_ Inform the security teams so that there are no misinterpretations about our data sources as they will have the same data model.
+
+1. Define and report the use of these data sets within the work team
+2. Document the process of creation, use of libraries and publish it internally.
+3. Inform the security teams so that there are no misinterpretations about our data sources as they will have the same data model.
 
 
 ### Documentation 
@@ -44,15 +45,15 @@ https://empresas.blogthinkbig.com/python-5-formas-de-cargar-datos-csv-proyectos-
 
 ###  Model of data 
 
-count 
-name 
-address 
-color 
-phone 
-nif 
-ssn 
-cp 
-count_bank 
+- count 
+- name 
+- address 
+- color 
+- phone 
+- nif 
+- ssn 
+- cp 
+- count_bank 
 
 ###  Expected output
 
