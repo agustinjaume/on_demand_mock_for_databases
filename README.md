@@ -1,11 +1,8 @@
 # On_demand_mock_for_databases
 
-In this video we will see a very useful tool to create a large volume of mock data based on a data model.
+In this video we will see a very useful tool to create a large volume of simulated data based on a data model to perform data ingestion and processing in ETL processes.
 
-GOOD PRACTICES - If we choose to use a data source created with simulated data, it is very important to follow the following recommendations:
-1_ Define and report the use of these data sets within the work team
-2_ Document the process of creation, use of libraries and publish it internally.
-3_ Inform the security teams so that there are no misinterpretations about our data sources as they will have the same data model.
+<img src="./images/data_mock-etl.png" alt="Kitten" title="A cute kitten" width="70%" height="70%" />
 
 Remember -  In object-oriented programming, mock objects are simulated objects that mimic the behavior of real objects in controlled ways, most often as part of a software testing initiative. A programmer typically creates a mock object to test the behavior of some other object, in much the same way that a car designer uses a crash test dummy to simulate the dynamic behavior of a human in vehicle impacts. The technique is also applicable in generic programming. 
 
@@ -28,6 +25,14 @@ The instructions, although obvious, will be similar to the following:
 5. Geo coordinates within the area contemplated for the analysis.
 
 With these criteria we can see that the objective is basically to have a volume of data according to the requirements, similar to that of production, but that does not represent a risk in case of accidental exposure.
+
+### IMPORTANT
+
+GOOD PRACTICES - If we choose to use a data source created with simulated data, it is very important to follow the following recommendations:
+1_ Define and report the use of these data sets within the work team
+2_ Document the process of creation, use of libraries and publish it internally.
+3_ Inform the security teams so that there are no misinterpretations about our data sources as they will have the same data model.
+
 
 ### Documentation 
 
