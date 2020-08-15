@@ -2,14 +2,19 @@
 
 In this video we will see a very useful tool to create a large volume of mock data based on a data model.
 
-Remember: In object-oriented programming, mock objects are simulated objects that mimic the behavior of real objects in controlled ways, most often as part of a software testing initiative. A programmer typically creates a mock object to test the behavior of some other object, in much the same way that a car designer uses a crash test dummy to simulate the dynamic behavior of a human in vehicle impacts. The technique is also applicable in generic programming. 
+GOOD PRACTICES - If we choose to use a data source created with simulated data, it is very important to follow the following recommendations:
+1_ Define and report the use of these data sets within the work team
+2_ Document the process of creation, use of libraries and publish it internally.
+3_ Inform the security teams so that there are no misinterpretations about our data sources as they will have the same data model.
+
+Remember -  In object-oriented programming, mock objects are simulated objects that mimic the behavior of real objects in controlled ways, most often as part of a software testing initiative. A programmer typically creates a mock object to test the behavior of some other object, in much the same way that a car designer uses a crash test dummy to simulate the dynamic behavior of a human in vehicle impacts. The technique is also applicable in generic programming. 
 
 
 <img src="./images/real-time-pipeline.png" alt="Kitten" title="A cute kitten" width="70%" height="70%" />
 
-### Escenario tipico en el que necesitamos crear una base de datos con contenido ficticio. 
+### Typical environment where we need to create a database with fictitious content. 
 
-Within a department for the treatment of large volumes of data, it is normal to find ourselves with the need to carry out a proof of concept, saturation test, search for vectors with a database with the same data model as the production model but with data they are not real.
+Within a department for the treatment of large volumes of data, it is normal to find ourselves with the need to carry out a proof of concept, process ETL (Extract, transform and load), saturation test, search for vectors with a database with the same data model as the production model but with data they are not real.
 
 <img src="./images/data_mock.png" alt="Kitten" title="A cute kitten" width="70%" height="70%" />
 
